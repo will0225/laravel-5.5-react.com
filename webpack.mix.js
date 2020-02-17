@@ -12,4 +12,8 @@ let mix = require('laravel-mix');
  */
 
 mix.react('resources/assets/js/app.js', 'public/js')
+   .react('template/listener.js', 'public/js')
+   .react('template/template-01.json', 'public/js')
+   .react('template/template-02.json', 'public/js')
+   .react('template/template-03.json', 'public/js')
    .sass('resources/assets/sass/app.scss', 'public/css');
